@@ -23,5 +23,6 @@ class BadgeWidget extends StatelessWidget {
         ],
       ),
     );
+
   }
 }

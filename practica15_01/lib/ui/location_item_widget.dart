@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practica15_01/ui/shared/badge_widget.dart';
+import 'package:practica15_01/shared/badge_widget.dart';
 
 class LocationItemWidget extends StatelessWidget {
   const LocationItemWidget({super.key});
