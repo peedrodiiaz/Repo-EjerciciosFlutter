@@ -80,9 +80,9 @@ class Calculadora extends StatelessWidget {
                   color: Colors.grey,
                   
                 ),
-                child: IconButton(
+                child: TextButton(
                   onPressed: () {},
-                  icon: Icon(Icons.ac_unit, color: Colors.white, size: 40,),
+                  child: Text('AC', style: TextStyle(color: Colors.white, fontSize: 40)),
                   
                 ),
               ),
@@ -110,9 +110,9 @@ class Calculadora extends StatelessWidget {
                   color: Colors.orange,
                   
                 ),
-                child: IconButton(
+                child: TextButton(
                   onPressed: () {},
-                  icon: Icon(Icons.safety_divider, color: Colors.white, size: 40,),
+                  child: Text('÷', style: TextStyle(color: Colors.white, fontSize: 40)),
                 
                 ),
               ),
@@ -133,9 +133,9 @@ class Calculadora extends StatelessWidget {
                   color: const Color.fromARGB(255, 61, 61, 61),
                   
                 ),
-                child: IconButton(
+                child: TextButton(
                   onPressed: () {},
-                  icon: Icon(Icons.numbers, color: Colors.white, size: 40,),
+                  child: Text('7', style: TextStyle(color: Colors.white, fontSize: 40)),
                   
                 ),
               ),
@@ -145,12 +145,12 @@ class Calculadora extends StatelessWidget {
                 height: 80,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(40),
-                  color: Colors.grey,
+                  color: const Color.fromARGB(255, 61, 61, 61),
                   
                 ),
-                child: IconButton(
+                child: TextButton(
                   onPressed: () {},
-                  icon: Icon(Icons.ac_unit, color: Colors.white, size: 40,),
+                  child: Text('8', style: TextStyle(color: Colors.white, fontSize: 40)),
                   
                 ),
               ),
@@ -160,12 +160,12 @@ class Calculadora extends StatelessWidget {
                 height: 80,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(40),
-                  color: Colors.grey,
+                  color: const Color.fromARGB(255, 61, 61, 61),
                   
                 ),
-                child: IconButton(
+                child: TextButton(
                   onPressed: () {},
-                  icon: Icon(Icons.percent, color: Colors.white, size: 40,),
+                  child: Text('9', style: TextStyle(color: Colors.white, fontSize: 40)),
                   
                 ),
               ),
@@ -180,7 +180,7 @@ class Calculadora extends StatelessWidget {
                 ),
                 child: IconButton(
                   onPressed: () {},
-                  icon: Icon(Icons.safety_divider, color: Colors.white, size: 40,),
+                  icon: Icon(Icons.close, color: Colors.white, size: 40,),
                 
                 ),
               ),
@@ -198,12 +198,12 @@ class Calculadora extends StatelessWidget {
                 height: 80,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(40),
-                  color: Colors.grey,
+                  color: const Color.fromARGB(255, 61, 61, 61),
                   
                 ),
-                child: IconButton(
+                child: TextButton(
                   onPressed: () {},
-                  icon: Icon(Icons.backspace, color: Colors.white, size: 40,),
+                  child: Text('4', style: TextStyle(color: Colors.white, fontSize: 40)),
                   
                 ),
               ),
@@ -213,12 +213,12 @@ class Calculadora extends StatelessWidget {
                 height: 80,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(40),
-                  color: Colors.grey,
+                  color: const Color.fromARGB(255, 61, 61, 61),
                   
                 ),
-                child: IconButton(
+                child: TextButton(
                   onPressed: () {},
-                  icon: Icon(Icons.ac_unit, color: Colors.white, size: 40,),
+                  child: Text('5', style: TextStyle(color: Colors.white, fontSize: 40)  ),
                   
                 ),
               ),
@@ -228,12 +228,12 @@ class Calculadora extends StatelessWidget {
                 height: 80,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(40),
-                  color: Colors.grey,
+                  color: const Color.fromARGB(255, 61, 61, 61),
                   
                 ),
-                child: IconButton(
+                child: TextButton(
                   onPressed: () {},
-                  icon: Icon(Icons.percent, color: Colors.white, size: 40,),
+                  child: Text('6', style: TextStyle(color: Colors.white, fontSize: 40)),
                   
                 ),
               ),
@@ -248,7 +248,7 @@ class Calculadora extends StatelessWidget {
                 ),
                 child: IconButton(
                   onPressed: () {},
-                  icon: Icon(Icons.safety_divider, color: Colors.white, size: 40,),
+                  icon: Icon(Icons.remove, color: Colors.white, size: 40,),
                 
                 ),
               ),
@@ -266,12 +266,12 @@ class Calculadora extends StatelessWidget {
                 height: 80,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(40),
-                  color: Colors.grey,
+                  color: const Color.fromARGB(255, 61, 61, 61),
                   
                 ),
-                child: IconButton(
+                child: TextButton(
                   onPressed: () {},
-                  icon: Icon(Icons.backspace, color: Colors.white, size: 40,),
+                  child: Text('1', style: TextStyle(color: Colors.white, fontSize: 40)),
                   
                 ),
               ),
@@ -281,12 +281,12 @@ class Calculadora extends StatelessWidget {
                 height: 80,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(40),
-                  color: Colors.grey,
+                  color: const Color.fromARGB(255, 61, 61, 61),
                   
                 ),
-                child: IconButton(
+                child: TextButton(
                   onPressed: () {},
-                  icon: Icon(Icons.ac_unit, color: Colors.white, size: 40,),
+                  child: Text('2', style: TextStyle(color: Colors.white, fontSize: 40)),
                   
                 ),
               ),
@@ -296,12 +296,12 @@ class Calculadora extends StatelessWidget {
                 height: 80,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(40),
-                  color: Colors.grey,
+                  color: const Color.fromARGB(255, 61, 61, 61),
                   
                 ),
-                child: IconButton(
+                child: TextButton(
                   onPressed: () {},
-                  icon: Icon(Icons.percent, color: Colors.white, size: 40,),
+                  child: Text('3', style: TextStyle(color: Colors.white, fontSize: 40)),
                   
                 ),
               ),
@@ -314,9 +314,9 @@ class Calculadora extends StatelessWidget {
                   color: Colors.orange,
                   
                 ),
-                child: IconButton(
+                child: TextButton(
                   onPressed: () {},
-                  icon: Icon(Icons.safety_divider, color: Colors.white, size: 40,),
+                  child: Text('+', style: TextStyle(color: Colors.white, fontSize: 40)),
                 
                 ),
               ),
@@ -333,12 +333,12 @@ class Calculadora extends StatelessWidget {
                 height: 80,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(40),
-                  color: Colors.grey,
+                  color: const Color.fromARGB(255, 61, 61, 61),
                   
                 ),
-                child: IconButton(
+                child: TextButton(
                   onPressed: () {},
-                  icon: Icon(Icons.backspace, color: Colors.white, size: 40,),
+                  child: Text('+/-', style: TextStyle(color: Colors.white, fontSize: 40)),
                   
                 ),
               ),
@@ -348,12 +348,12 @@ class Calculadora extends StatelessWidget {
                 height: 80,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(40),
-                  color: Colors.grey,
+                  color: const Color.fromARGB(255, 61, 61, 61),
                   
                 ),
-                child: IconButton(
+                child: TextButton(
                   onPressed: () {},
-                  icon: Icon(Icons.ac_unit, color: Colors.white, size: 40,),
+                  child: Text('0', style: TextStyle(color: Colors.white, fontSize: 40)),
                   
                 ),
               ),
@@ -363,12 +363,12 @@ class Calculadora extends StatelessWidget {
                 height: 80,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(40),
-                  color: Colors.grey,
+                  color: const Color.fromARGB(255, 61, 61, 61),
                   
                 ),
-                child: IconButton(
+                child: TextButton(
                   onPressed: () {},
-                  icon: Icon(Icons.percent, color: Colors.white, size: 40,),
+                  child: Text('.', style: TextStyle(color: Colors.white, fontSize: 40)),
                   
                 ),
               ),
@@ -381,9 +381,9 @@ class Calculadora extends StatelessWidget {
                   color: Colors.orange,
                   
                 ),
-                child: IconButton(
+                child: TextButton(
                   onPressed: () {},
-                  icon: Icon(Icons.safety_divider, color: Colors.white, size: 40,),
+                  child: Text('=', style: TextStyle(color: Colors.white, fontSize: 40)),
                 
                 ),
               ),
