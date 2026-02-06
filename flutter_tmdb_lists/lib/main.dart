@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tmdb_lists/features/movie-list/ui/movie_list_view.dart';
+import 'package:flutter_tmdb_lists/features/people-list/ui/people_list_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MovieListView()
+      home: PeopleListView()
     );
   }
 }

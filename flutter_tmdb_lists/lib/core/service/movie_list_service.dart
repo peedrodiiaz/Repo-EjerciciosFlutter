@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:io';
 
 import 'package:flutter_tmdb_lists/core/interface/movie_list_interfaces.dart';
 import 'package:flutter_tmdb_lists/core/models/movie_list_response.dart';
